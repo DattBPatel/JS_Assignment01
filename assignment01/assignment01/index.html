@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- Add script for storymaker with defer attribute to load after the document is parsed -->
+    <script src="./js/storymaker.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Main heading -->
+    <h1>"See-N-Say Storymaker"</h1>
+    <!-- Paragraph to display student ID (currently empty) -->
+    <p id="studentId"></p>
+    <!-- First section for user interaction -->
+    <section>
+        <!-- Subheading for user instructions -->
+        <h2>Create Your Own Story:</h2><br>
+        <!-- Buttons for selecting word types -->
+        <button id="noun1">Noun 1</button>
+        <p id="selectedNoun1"></p>
+        <button id="verb">Verb</button>
+        <p id="selectedVerb"></p>
+        <button id="adjective">Adjective</button>
+        <p id="selectedAdjective"></p>
+        <button id="noun2">Noun 2</button>
+        <p id="selectedNoun2"></p>
+        <button id="setting">Setting</button>
+        <p id="selectedSetting"></p>
+    </section>
+    <!-- Second section for story playback -->
+    <section>
+        <!-- Subheading for playback controls -->
+        <h2>See Your Story</h2>
+        <!-- Buttons for showing story and generating random story -->
+        <button id="showStory">Show Story</button>
+        <button id="randomStory">Random Story</button>
+        <!-- Paragraph to display the story -->
+        <p id="watchStory"></p>
+    </section>
+
+</body>
+
+</html>
